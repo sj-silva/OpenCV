@@ -1,2 +1,2 @@
-# Carregando uma Imagem
-Neste programa realizamos o carregamento de uma imagem armazenada no diretório /imagens.
+# Opencv C++ Primeiros Passos
+Aqui listarei uma série de programas básicos desenvolvidos com OpenCV C++

@@ -10,7 +10,7 @@ int main() {
 	setlocale(LC_ALL, "Portuguese");
 	std::string filePath = "imagens/carro.jpg";
 	
-	Mat img = imread(filePath,0);
+	Mat img = imread(filePath);
 
 	if (img.data == nullptr) {
 		cerr << "ERRO::Não foi possível carregar a imagem "<< filePath<<" \n\n";

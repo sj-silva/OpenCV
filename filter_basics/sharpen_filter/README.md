@@ -1,4 +1,4 @@
-# Realçando uma Imagem
+# Realçando uma Imagem (Sharpening)
 
 Para realçar a imagem devemos recordar que a operação de Blur retira as altas frequencias de uma imagem, ou seja, após esta operação teremos uma imagem com frequencias mais baixas.
 

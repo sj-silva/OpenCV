@@ -10,6 +10,6 @@ Noise Image          |  Box Filter (7x7) | Gaussian Filter(7x7) | Median Filter(
 
 2.Desfocando a Imagem
 
-Noise Image          |  Box Filter (7x7) | Gaussian Filter(7x7) | Median Filter(7x7)
+Noise Image          |  Box Filter (25x25) | Gaussian Filter(25x25) | Median Filter(15x15)
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src='images/dali.jpg' width='250'>   |  <img src='images/dali_box_filter.png' width='250'> | <img src='images/dali_box_filter.png' width='250'> |<img src='images/dali_median_filter.png' width='250'>
+<img src='images/dali.png' width='250'>   |  <img src='images/dali_box_filter.png' width='250'> | <img src='images/dali_box_filter.png' width='250'> |<img src='images/dali_median_filter.png' width='250'>

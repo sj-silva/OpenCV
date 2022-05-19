@@ -6,9 +6,9 @@ Para realçar a imagem devemos recordar que a operação de Blur retira as altas
 1. Removendo Ruídos de uma Imagem
 
 
-Noise Image          |  Box Filter (7x7) | Gaussian Filter(7x7) | Median Filter(7x7)
+Imagem Original          |  Box Filter (7x7) | Gaussian Filter(7x7) | Median Filter(7x7)
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src='images/face_noise.jpg' width='250'>   |  <img src='images/face_box_filter.png' width='250'> | <img src='images/face_gauss_filter.png' width='250'> |<img src='images/face_median_filter.png' width='250'>
+<img src='images/original.png' width='250'>   |  <img src='images/box_sharpen.png' width='250'> | <img src='images/gauss_sharpen.png' width='250'> |<img src='images/median_sharpen.png' width='250'>
 
 
 

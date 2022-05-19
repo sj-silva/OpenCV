@@ -1,9 +1,9 @@
 # Realçando uma Imagem (Sharpening)
 
-Para realçar a imagem devemos recordar que a operação de Blur retira as altas frequencias de uma imagem, ou seja, após esta operação teremos uma imagem com frequencias mais baixas.
+Para realçar a imagem devemos recordar que a operação de **Blur** retira as altas frequencias de uma imagem, ou seja, após esta operação teremos uma imagem com frequencias mais baixas.
 
 
-1. Removendo Ruídos de uma Imagem
+### Resultados:
 
 
 Imagem Original          |  Box Filter (7x7) | Gaussian Filter(7x7) | Median Filter(7x7)
@@ -11,9 +11,3 @@ Imagem Original          |  Box Filter (7x7) | Gaussian Filter(7x7) | Median Fil
 <img src='images/original.png' width='250'>   |  <img src='images/box_sharpen.png' width='250'> | <img src='images/gauss_sharpen.png' width='250'> |<img src='images/median_sharpen.png' width='250'>
 
 
-
-2.Desfocando a Imagem
-
-Gala Desnuda          |  Box Filter (25x25) | Gaussian Filter(25x25) | Median Filter(15x15)
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src='images/dali.png' width='250'>   |  <img src='images/dali_box_filter.png' width='250'> | <img src='images/dali_box_filter.png' width='250'> |<img src='images/dali_median_filter.png' width='250'>

@@ -11,7 +11,7 @@ A seguir mostramos a matemática envolvida no processo de **_realce da imagem_**
 
 Seja **_M_** definada por $$\begin{eqnarray}M =I-I_b\end{eqnarray}$$ 
 
-como estamos retirando as baixas frequências presentes em **_I<sub>b</sub>_**, então **_M_** é uma imagem quem contém as altas frequências da imagem original **_I_**.
+retirando as baixas frequências presentes em **_I<sub>b</sub>_** faz com que a imagem **_M_** contenha apenas as altas frequências da imagem original **_I_**.
 
   Deste modo podemos criar uma cópia mais nítida **_H_** da nossa imagem aplicando a seguinte estratégia   
 $$\begin{eqnarray} H=I+kM \text{ }:k \in \mathbb{R} \end{eqnarray}$$

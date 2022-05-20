@@ -7,14 +7,14 @@ Para realçar a imagem devemos recordar que a operação de **Blur** retira as a
 
 A seguir mostramos a matemática envolvida no processo de **_realce da imagem_** .
 * **_I_** - imagem original
-* **_I<sub> b</sub>_** - imagem blured: contém as baixas frequencias da imagem original
+* **_I<sub> b</sub>_** - imagem blured: contém as baixas frequências da imagem original
 
-Portanto 
-$$
-m=I-I_b \text{ (imagem com as altas frequencias da imagem original)}
-$$
-Deste modo, tomando atenuamos nossa imagem aplicando um fator $$k \in \mathbb{R}$$ e criamos a imagem  
-$$\begin{eqnarray} H=I+km  \end{eqnarray}$$
+Seja **_M_** definada por $$\begin{eqnarray}M =I-I_b\end{eqnarray}$$ 
+
+como estamos retirando as baixas frequências presentes em **_I<sub>b</sub>_**, então **_M_** é uma imagem quem contém as altas frequências da imagem original **_I_**.
+
+  Deste modo podemos criar uma cópia mais nítida **_H_** da nossa imagem aplicando a seguinte estratégia   
+$$\begin{eqnarray} H=I+kM \text{ }:k \in \mathbb{R} \end{eqnarray}$$
 
 Observe que agora **_H_** trata-se de uma imagem mais nítida pois somamos à imagem original **_I_** uma imagem contendo suas altas frequencias ampliadas por um fator **_k_**. Temos então que:
 

@@ -16,8 +16,7 @@ como estamos retirando as baixas frequências presentes em **_I<sub>b</sub>_**, 
   Deste modo podemos criar uma cópia mais nítida **_H_** da nossa imagem aplicando a seguinte estratégia   
 $$\begin{eqnarray} H=I+kM \text{ }:k \in \mathbb{R} \end{eqnarray}$$
 
-Observe que agora **_H_** trata-se de uma imagem mais nítida pois somamos à imagem original **_I_** uma imagem contendo suas altas frequencias ampliadas por um fator **_k_**. Temos então que:
-
+Arrumando a equação temos:
 $$\begin{aligned} 
   H&=I+k(I-I_b)\\ 
   H&=(k+1)I-I_b\\

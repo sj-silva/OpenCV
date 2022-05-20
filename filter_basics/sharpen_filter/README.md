@@ -17,11 +17,13 @@ como estamos retirando as baixas frequências presentes em **_I<sub>b</sub>_**, 
 $$\begin{eqnarray} H=I+kM \text{ }:k \in \mathbb{R} \end{eqnarray}$$
 
 Arrumando a equação temos:
+
 $$\begin{aligned} 
   H&=I+k(I-I_b)\\ 
   H&=(k+1)I-I_b\\
   \end{aligned}$$
- 
+
+No OpenCV faremos então:
 ```
   cv::addWeighted(src, k + 1, current_blur_filter, -k, 0, result);
 ```

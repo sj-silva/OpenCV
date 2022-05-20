@@ -26,7 +26,7 @@ $$
 ### Resultados:
 
 
-Imagem Original          |  Box Filter (5x5) $$\sigma{5.5.}$$ | Gaussian Filter(7x7) | Median Filter(7x7)
+Imagem Original          |  Box Filter (5x5)  | Gaussian Filter(5x5) sigma= 5.5 | Median Filter(7x7) kernel=5
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 <img src='images/original.png' width='250'>   |  <img src='images/box_sharpen.png' width='250'> | <img src='images/gauss_sharpen.png' width='250'> |<img src='images/median_sharpen.png' width='250'>
 

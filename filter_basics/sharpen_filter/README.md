@@ -13,16 +13,19 @@ Portanto
 $$
 m=I-I_b \text{ (imagem com as altas frequencias da imagem original)}
 $$
-Deste modo, tomando atenuamos nossa imagem aplicando um fator $$k \in \mathbb{R}$$ e criamos a imagem $$ H $$ 
-$$
-H=I+km
-$$ 
-Observe que agora $$H$$ trata-se de uma imagem 
-$$
-H=I+k(I-I_b)
-$$ 
+Deste modo, tomando atenuamos nossa imagem aplicando um fator $$k \in \mathbb{R}$$ e criamos a imagem  
+$$\begin{eqnarray} H=I+km  \end{eqnarray}$$
 
+Observe que agora **_H_** trata-se de uma imagem mais nítida pois somamos à imagem original **_I_** uma imagem contendo suas altas frequencias ampliadas por um fator **_k_**. Temos então que:
 
+$$\begin{aligned} 
+  H&=I+k(I-I_b)\\ 
+  H&=(k+1)I-I_b\\
+  \end{aligned}$$
+ 
+```
+  cv::addWeighted(src, k + 1, current_blur_filter, -k, 0, result);
+```
 ### Resultados:
 
 
